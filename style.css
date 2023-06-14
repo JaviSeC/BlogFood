@@ -1,0 +1,14 @@
+footer {
+    display: grid;
+    text-align: center;
+}
+
+.footerone {
+    background-color: blue;
+}
+
+
+.footertwo {
+    background-color: black;
+    color: white;
+}
