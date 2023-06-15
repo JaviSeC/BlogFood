@@ -1,24 +1,69 @@
-*¨{
+*¨ {
     margin: 0px;
     padding: 0px;
+
 }
 
-body{
-background-color: blueviolet;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    background-color: rgb(255, 149, 19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 50px;
+    border-left: 30%;
+    border-right: 30px;
+}
+
+header {
+    display: flex;
+
+}
+
+header h1 {
+    background-color: rgb(16, 137, 243);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    border-top: 15px solid rgb(255, 236, 24);
+    border-bottom: 15px solid rgb(255, 5, 5);
+
+}
+
+/* .right{
+background-color: rgb(16, 137, 243);
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+height: 25px;
+width: 100%;
+text-align: center;
+border-top: 15px solid rgb(255, 236, 24);
+border-bottom: 15px solid rgb(255, 5, 5);
+} */
+
+#container {
+    /* background-color: brown; */
+    width: 100%;
+    margin: 0px auto;
+    text-align: center
 }
 
 footer {
     display: grid;
     text-align: center;
+    background-color: rgb(145, 145, 224);
 }
-
-.footerone {
-    background-color: blue;
-}
-
 
 .footertwo {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#company {
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
