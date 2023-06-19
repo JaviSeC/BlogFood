@@ -3,19 +3,20 @@
     padding: 0px;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
-    
     width: 100%;
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
-    /* color: white; */
 }
 
 header {
     background: url(Imagenes/fondo\ breakfasts.jpg)center center/cover no-repeat;
     color: rgb(245, 164, 15);
-    height: 100px;
-    width: 100%;
     text-align: center;
     line-height: 100px;
     border: 2px solid #ffffff;
@@ -44,8 +45,8 @@ header {
     border-radius: 15px;
 }
 
-ul{
-text-align: center;
+ul {
+    text-align: center;
 }
 
 a {
@@ -79,12 +80,24 @@ aside {
 }
 
 
-footer {
-    background-color: black;
+.footer {
+    width: 100%;
     text-align: center;
-    height: 30px;
     line-height: 30px;
-    clear: both;
+    background-color: black;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-text {
+    font-size: 150%;
+}
+
+.container-free {
+    width: 100%;
+    height: 110px;
+    background-color: #fb9313;
 }
 
 /* .background {
@@ -92,3 +105,11 @@ footer {
     width: 100%;
     height: 100vh;
   } */
+
+@media(max-width:820px) {
+
+    .item {
+        display: block;
+    }
+
+}
