@@ -4,28 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Jav's Breakfasts</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="recipe.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Jav's Breakfasts</h1>
-    </header>
-
-    <nav class="container-food">
-        <ul>
-            <a href="#home/home">HOME</a>
-            <a href="#recipe/recipe">RECIPE</a>
-            <a href="#contacts/contacts">CONTACTS</a>
-            <a href="#user/user">USER</a>
-        </ul>
-    </nav>
-
-
     <div id="content">
-
 
         <br>
 
@@ -33,7 +18,7 @@
 
             <div id="subpage__container"></div>
 
-            <!-- <article class="article">
+            <article class="article">
                 <img src="Imagenes/Arepas.webp" width="400px">
                 <h2>Arepa</h2>
                 <a
@@ -43,7 +28,6 @@
                     <ol>300 ml. de agua tibia.</ol>
                     <ol>220 g. de harina de maíz precocida P.A.N. o similar</ol>
                     <ol>1/2 cucharada de postre de sal (4 gramos)</ol>
-
                 </ul>
             </article>
 
@@ -162,18 +146,21 @@
                     <ol>1 cucharadita de vainilla</ol>
                     <ol>1 cucharadita de sal.</ol>
                 </ul>
-            </article> -->
+            </article>
 
         </section>
 
+        <aside>
+            <h1>What are you looking for?</h1>
+            <form id="search-form">
+                <input type="text" id="search-input" onsubmit="return-false;" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </aside>
     </div>
 
-    <div>
-        <footer>
-            Javier S.C. &COPY; 2023
-        </footer>
-    </div>
     <script src="javascript.js"></script>
+    <script src="recipe.js"></script>
 </body>
 
 </html>
