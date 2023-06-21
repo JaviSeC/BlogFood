@@ -11,7 +11,20 @@ html {
 body {
     width: 100%;
     height: 100vh;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    background-color: #f58f13;
+}
+
+h1 {
+    color: rgb(245, 164, 15);
+}
+
+h1:hover {
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+        0 0 15px orangered,
+        0 0 20px rgb(255, 255, 255),
+        0 0 25px rgb(255, 255, 255),
+        0 0 30px orangered;
 }
 
 header {
@@ -23,15 +36,10 @@ header {
     font-size: 30px;
 }
 
-#container {
-    width: 90%;
-    margin: 0px auto;
-}
 
-.container-food {
-    /* display: flex;
-    justify-content: space-around; */
-    /* text-align: center; */
+
+.container-nav-links {
+    text-align: center;
     background: linear-gradient(to right, rgb(255, 238, 4), rgb(21, 95, 244), rgb(224, 3, 3));
     margin-top: 15px;
     margin-bottom: 15px;
@@ -45,12 +53,9 @@ header {
     border-radius: 15px;
 }
 
-ul {
-    text-align: center;
-}
-
-a {
+.container-nav-links a {
     color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
 
 .content {
@@ -58,6 +63,11 @@ a {
     width: calc(80% - 80px);
     padding: 20px;
     text-align: center;
+}
+
+#tittle-recipes {
+    font-size: xx-large;
+    background-color: #ffffff;
 }
 
 .article {
@@ -68,17 +78,28 @@ a {
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 
+article a {
+    color: #7e0ef7;
+    text-decoration-style: wavy;
+}
 
 aside {
     color: #fb9313;
     float: left;
     width: calc(20% - 20px);
-    min-height: 2000px;
+    min-height: 1550px;
     background: url(Imagenes/fondo-aside.jpg);
-    /* background-color: rgb(212, 211, 211); */
     padding: 10px;
 }
 
+.container-free {
+    background-color: springgreen;
+    /* height: 1000px;
+    width: 100%; */
+    font-size: 100px;
+    color: rgb(0, 102, 255);
+    bottom: 0;
+}
 
 .footer {
     width: 100%;
@@ -99,12 +120,6 @@ aside {
     height: 110px;
     background-color: #fb9313;
 }
-
-/* .background {
-    background: linear-gradient(to right, rgb(255, 231, 12), rgb(21, 95, 244), rgb(224, 3, 3));
-    width: 100%;
-    height: 100vh;
-  } */
 
 @media(max-width:820px) {
 
