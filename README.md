@@ -13,4 +13,4 @@
 
 <h2 align= center>Autor:</h2>
 <strong>Javier Serarno C.</strong>
-<img src="C:\Users\ESCUELA DIGITAL 01\Desktop\Javier Drive\Bootcam Merida\Curso Programacion\Proyecto 4 reservas\reservasjs\img\javi.jpg" width="130" height="100">
+<img src="/Imagenes/javi.jpg" width="130" height="100">
