@@ -7,10 +7,12 @@
 <br>
 <li>index.html: Página principal del blog.</li>
 <li>css/: Carpeta que contiene los estilos CSS del blog.</li>
-<li>img/: Carpeta que contiene las imágenes utilizadas en el blog.</li>
+<li>Imgenes/: Carpeta que contiene las imágenes utilizadas en el blog.</li>
 <li>recipes/: Carpeta que contiene los archivos Markdown de las recetas.</li>
 </ul>
 
-<h2 align= center>Autor:</h2>
-<strong>Javier Serarno C.</strong>
-<img src="/Imagenes/javi.jpg" width="130" height="100">
+<h2 align=center>Autor:</h2>
+
+<h3><strong align=center>Javier Serarno C.</strong></h3>
+<br>
+<img src="/Imagenes/javi.jpg" width="250" height="200">
