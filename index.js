@@ -52,7 +52,7 @@ function createImageItem(imageUrl, title, text, previewContainer, isAdminPage) {
   const previewImage = document.createElement('img');
   previewImage.src = imageUrl;
   previewImage.style.width = '100%'; // Establecemos un ancho del 100%
-  previewImage.style.height = '300px'; // La altura se ajustará automáticamente
+  previewImage.style.height = '400px'; // La altura se ajustará automáticamente
   imageItem.appendChild(previewImage);
   const imageTitle = document.createElement('h3');
   imageTitle.innerText = title;
