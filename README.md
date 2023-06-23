@@ -11,6 +11,18 @@
 <li>recipes/: Carpeta que contiene los archivos Markdown de las recetas.</li>
 </ul>
 
+<p align=center>
+ <img src=https://github.com/JaviSeC/reservasjs/assets/132651136/65c7313c-429b-4f58-b43b-db86a9b5e6c2 alt=herramientas>
+ </p>
+<ul>
+  <li>Visual Studio Code.</li>
+  <li>GitHub</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>Figma</li>
+</ul>
+
 <h2 align=center>Autor:</h2>
 
 <h3><strong align=center>Javier Serarno C.</strong></h3>
