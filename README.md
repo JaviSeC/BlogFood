@@ -1,3 +1,4 @@
+<img src="/Imagenes/Header%20Blog.png" width="250" height="200">
 <h1 align= center>Bienvenido al Blog de Recetas de Desayunos de Venezolana</h1>
 
 <p>Este es un blog dedicado a compartir deliciosas recetas de comida venezolana, una cocina rica en sabores y tradiciones. Aquí encontrarás una variedad de desayunos típicos y algo más, desde Arepas y Empanadas hasta Tequeños y dulces tradicionales.</p>
