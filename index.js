@@ -39,7 +39,6 @@ function createImageItem(imageUrl, title, text, previewContainer, isAdminPage) {
   const imageItem = document.createElement('div');
   imageItem.className = 'image-item';
   imageItem.style.width = '500px';
-  // imageItem.style.justifyContent = 'center';
   imageItem.style.display = 'flex';
   imageItem.style.flexDirection = 'column';
   imageItem.style.alignItems = 'center';
@@ -52,7 +51,7 @@ function createImageItem(imageUrl, title, text, previewContainer, isAdminPage) {
   const previewImage = document.createElement('img');
   previewImage.src = imageUrl;
   previewImage.style.width = '100%'; // Establecemos un ancho del 100%
-  previewImage.style.height = '400px'; // La altura se ajustará automáticamente
+  previewImage.style.height = '400px'; 
   imageItem.appendChild(previewImage);
   const imageTitle = document.createElement('h3');
   imageTitle.innerText = title;
