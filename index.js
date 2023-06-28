@@ -38,20 +38,19 @@ function initializeAdminPage() {
 function createImageItem(imageUrl, title, text, previewContainer, isAdminPage) {
   const imageItem = document.createElement('div');
   imageItem.className = 'image-item';
-  imageItem.style.width = '500px';
+  imageItem.style.width = '100%';
   imageItem.style.display = 'flex';
   imageItem.style.flexDirection = 'column';
   imageItem.style.alignItems = 'center';
   justifyContent = 'center';
-  imageItem.style.height = '600px';
-  imageItem.style.margin = '10px';
+  imageItem.style.height = '100%';
   imageItem.style.border = '5px solid gold';
   imageItem.style.textAlign = 'center';
   imageItem.style.backgroundColor = 'white';
   const previewImage = document.createElement('img');
   previewImage.src = imageUrl;
   previewImage.style.width = '100%'; // Establecemos un ancho del 100%
-  previewImage.style.height = '400px'; 
+  previewImage.style.height = '100%'; 
   imageItem.appendChild(previewImage);
   const imageTitle = document.createElement('h3');
   imageTitle.innerText = title;
